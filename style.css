@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Unica+One&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Unica One', sans-serif;
+}
+
+:root{
+    --background:#000000;
+    --primary-color:#C9ADA7;
+    --button-color1:#FFFFFF;
+    --button-color2:#F4ACB7;
+
+    --background2:#9D8189;
+    
+    --pc-large:80px;
+    --pc-medium:40px;
+    --pc-small:20px;
+}
+
+.section_padding
+{
+    padding:6rem;
+}
+
+.section_margin
+{
+    margin:2rem;
+}
+
+.home_container
+{
+    background-color: var(--background);
+    height:100vh;
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_title
+{
+    color:var(--primary-color);
+    font-size: var(--pc-large);
+    text-align: center;
+}
+
+button
+{
+    padding:var(--pc-small);
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+
+.home_button
+{
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+    margin-top:var(--pc-medium);
+}
+
+.view
+{
+    background-color: var(--button-color1);
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.view:hover
+{
+    background-color: var(--button-color2);
+    transition: 0.5s ease;
+    transform: scale(1.05,1.05);
+}
+
+.get
+{
+    background-color: var(--button-color2);
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.get:hover
+{
+    background-color: var(--button-color1);
+    transition: 0.5s ease;
+    transform: scale(1.05,1.05);
+}
+
+.design_section
+{
+    background-color: var(--background2);
+    height:100vh;
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    /* padding: var(--section_padding); 
+    margin: var(--section_margin);  */
+}
+
+.picture
+{
+    height: 20rem;
+    width: 20rem;
+}
+
+.section1
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.left
+{
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+}
+
+.image1
+{
+    /* background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg"); */
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 50%;
+}
+
+.text1
+{
+    font-weight: bolder;
+    font-size: var(--pc-medium);
+    margin-bottom: 2rem;
+}
+
+.text2
+{
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.image2
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 50%;
+}
+
+.list
+{
+    background-color: var(--background2);
+    height:100vh;
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sec_1
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic
+{
+    height: 15rem;
+    width: 15rem;
+}
+
+.img1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: Center content horizontally in each .img1 */
+    text-align: center;
+}
+
+.t2
+{
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.t1
+{
+    color: #FFFFFF;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.comment
+{
+    background-color: var(--background2);
+    height:80vh;
+    width:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box 
+{
+    width: 15rem; 
+    height: 17rem; 
+    background-color: #92737B;  
+    display: flex;
+    border-radius: 1rem;
+    margin-top: 20vh;
+}
+
+.end
+{
+    background-color: var(--background2);
+    height:50vh;
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt
+{
+    color:var(--background);
+    font-size: var(--pc-medium);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.txt1
+{
+    text-align: center;
+    font-family: 'Albert Sans', sans-serif;
+}
