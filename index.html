@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 <body>
     <!-- <h1>hello,I am Neelakshi</h1> -->
@@ -35,13 +37,13 @@
             </div>
             </div>
             <div class="image1">
-                <img class="picture" src="./Untitled design(2).png" alt="image1">
+                <img class="picture" data-aos="fade-left" src="./Untitled design(2).png" alt="image1">
             </div>
         </div>
 
         <div class="section1">
             <div class="image2">
-                <img class="picture" src="./Untitled design(2).png" alt="image1">
+                <img class="picture" data-aos="fade-right" src="./Untitled design(2).png" alt="image1">
             </div>
             <div class="left">
             <div class="text1">
@@ -59,7 +61,7 @@
 
         <div class="sec_1">
             <div class="img1">
-                <img class="pic" src="./Untitled design(3).png" alt="image1">
+                <img class="pic" data-aos="zoom-in" src="./Untitled design(3).png" alt="image1">
                 <div class="t2">
                     Branding
                 </div>
@@ -68,7 +70,7 @@
                 </div>
             </div>
             <div class="img1">
-                <img class="pic" src="./Untitled design(3).png" alt="image1">
+                <img class="pic" data-aos="zoom-in" src="./Untitled design(3).png" alt="image1">
                 <div class="t2">
                     Web Design & UX
                 </div>
@@ -77,7 +79,7 @@
                 </div>
             </div>
             <div class="img1">
-                <img class="pic" src="./Untitled design(3).png" alt="image1">
+                <img class="pic" data-aos="zoom-in" src="./Untitled design(3).png" alt="image1">
                 <div class="t2">
                     Frontend Development
                 </div>
@@ -89,7 +91,7 @@
 
         <div class="sec_1">
             <div class="img1">
-                <img class="pic" src="./Untitled design(3).png" alt="image1">
+                <img class="pic" data-aos="zoom-in" src="./Untitled design(3).png" alt="image1">
                 <div class="t2">
                     SEO Optimization
                 </div>
@@ -98,7 +100,7 @@
                 </div>
             </div>
             <div class="img1">
-                <img class="pic" src="./Untitled design(3).png" alt="image1">
+                <img class="pic" data-aos="zoom-in" src="./Untitled design(3).png" alt="image1">
                 <div class="t2">
                     Responsive Design
                 </div>
@@ -107,7 +109,7 @@
                 </div>
             </div>
             <div class="img1">
-                <img class="pic" src="./Untitled design(3).png" alt="image1">
+                <img class="pic" data-aos="zoom-in" src="./Untitled design(3).png" alt="image1">
                 <div class="t2">
                     E-Commerce
                 </div>
@@ -119,13 +121,37 @@
     </div>
 
     <div class="comment section_padding">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+        <div class="box" data-aos="flip-left">
+            <img src="./Untitled design(2).png" data-aos="zoom-in" alt="My Icon" class="icon">
+            <div class="t1">
+                The attention to detail and commitment to delivering a killer UI was outstanding, truly blew me away!
+            </div>
+            <div class="t1">
+                Bill Johnson, CEO of TechCorp
+            </div>
+        </div>
+        <div class="box" data-aos="flip-left">
+            <img src="./Untitled design(2).png" data-aos="zoom-in" alt="My Icon" class="icon">
+            <div class="t1">
+                Our website has never looked better, our users are consistently commenting on the improved experience.
+            </div>
+            <div class="t1">
+                Cynthia Stewart, Digital Director
+            </div>
+        </div>
+        <div class="box" data-aos="flip-left">
+            <img src="./Untitled design(2).png" data-aos="zoom-in" alt="My Icon" class="icon">
+            <div class="t1">
+                Outstanding design and frontend development! My app went from drab to fab, and the results show!
+            </div>
+            <div class="t1">
+                Roger Thompson, Award-Winning App
+            </div>
+        </div>
     </div>
     
     <div class="end">
-        <div class="txt">
+        <div class="txt" data-aos="zoom-in-up">
             Ready?
         </div>
         <div class="txt1">
@@ -140,5 +166,16 @@
             </button>
         </div>
     </div>
+
+    <div class="footer">
+        <div class="block1">
+            © 2023 by UI/UX Designer & Frontend Web Developer. All Rights Reserved.
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
