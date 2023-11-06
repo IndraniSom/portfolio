@@ -102,7 +102,7 @@ button
 .design_section
 {
     background-color: var(--background2);
-    height:100vh;
+    height:auto;
     width:auto;
     display:flex;
     flex-direction: column;
@@ -180,7 +180,7 @@ button
 .list
 {
     background-color: var(--background2);
-    height:100vh;
+    height:auto;
     width:auto;
     display:flex;
     flex-direction: column;
@@ -237,19 +237,20 @@ button
     }
     .pic
     {
-        height: 6rem;
-        width: 6rem;
+        height: 20rem;
+        width: 20rem;
     }
 }
 
 .comment
 {
     background-color: var(--background2);
-    height:80vh;
+    height:auto;
     width:auto;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .box 
@@ -271,11 +272,18 @@ button
     border-radius: 50%;
 }
 
+@media screen and (max-width: 770px)
+{
+    .comment
+    {
+        flex-direction: column;
+    }   
+}
 
 .end
 {
     background-color: var(--background2);
-    height:50vh;
+    height:auto;
     width:auto;
     display:flex;
     flex-direction: column;
@@ -297,10 +305,11 @@ button
     font-family: 'Albert Sans', sans-serif;
 }
 
+
 .footer
 {
     background-color: var(--background2);
-    height:20vh;
+    height:auto;
     width:auto;
     display:flex;
     flex-direction: row;
